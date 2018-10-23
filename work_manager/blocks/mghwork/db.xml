@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btWork">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+			<autoincrement />
+		</field>
+		<field name="project" type="C" size="64" />
+		<field name="displaySize" type="C" size="64" />
+		<field name="displayType" type="C" size="64" />
+		<field name="linkType" type="C" size="64" />
+		<field name="url" type="C" size="64" />
+		<field name="activeCategory" type="C" size="64" />
+	</table>
+</schema>

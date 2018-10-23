@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="pkgClientManager">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+            <autoincrement />
+        </field>
+
+		<field name="title" type="C" size="255" />
+
+		<field name="photo" type="I">
+			<unsigned />
+			<default value="NULL" />
+		</field>
+
+		<field name="sequence" type="I">
+			<unsigned />
+			<default value="NULL" />
+		</field>
+	</table>
+</schema>
